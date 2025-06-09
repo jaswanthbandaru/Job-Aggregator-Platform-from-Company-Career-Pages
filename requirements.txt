@@ -1,0 +1,38 @@
+# Job Search Engine Requirements
+
+# Core Framework
+fastapi>=0.108.0
+uvicorn==0.24.0
+
+# Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+crawl4ai==0.6.3
+selenium==4.15.2
+
+# Data Processing
+pydantic>=2.10
+python-multipart==0.0.6
+
+
+# Scheduling
+schedule==1.2.0
+
+# AI/LLM Integration (Optional)
+openai<1.76.0 
+anthropic==0.7.7
+
+# Additional Utilities
+python-dotenv==1.0.0
+aiofiles>=24.1.0
+jinja2==3.1.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+
+# Logging and Monitoring
+rich>=13.9.4
+loguru==0.7.2
